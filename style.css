@@ -67,8 +67,8 @@ body {
 }
 
 .item3 {
-    grid-column: 2 / span 2;
-    grid-row: 1;
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
 }
 
 .item4 {
@@ -76,29 +76,34 @@ body {
     grid-row: 1;
 }
 
-.item5 {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.item6 {
-    grid-column: 2 / span 2;
-    grid-row: 2;
-}
-
 .item7 {
-    grid-column: 1 ;
-    grid-row: 2;
-}
-
-.item8 {
-    grid-column: 2 / span 2;
+    grid-column: 1;
     grid-row: 3;
 }
 
-.item12 {
-    grid-column: 2 / span 2;
+.item9 {
+    grid-column: 3 / span 2;
+    grid-row: 3;
+}
+
+.item8 {
+    grid-column: 4;
     grid-row: 4;
+}
+
+.item10 {
+    grid-column: 3 / span 2;
+    grid-row: 5 / span 2;
+}
+
+.item11 {
+    grid-column: 1 / span 2;
+    grid-row: 4 / span 2;
+}
+
+.item14 {
+    grid-column: 2;
+    grid-row: 3;
 }
 
 .grid-item1 {
